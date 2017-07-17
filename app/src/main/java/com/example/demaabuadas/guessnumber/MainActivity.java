@@ -16,13 +16,14 @@ public class MainActivity extends AppCompatActivity {
     TextView mTriesView;
     EditText mGuessEdit;
     TextView mHintView;
+    Button mResetButton;
 
     Random rand = new Random();
     // 100 is the max and 1 is the min :-)
-    int randNum = rand.nextInt(100) + 1;
-    int counter = 10;
-    String getInput;
-    int userGuess;
+    public int randNum = rand.nextInt((100 - 1) + 1) + 1;
+    public int counter = 10;
+    public String getInput;
+    public int userGuess;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mGuessButton = (Button) findViewById(R.id.guessBtn);
+        mResetButton = (Button) findViewById(R.id.resetBtn);
         mTriesView = (TextView) findViewById(R.id.triesLeft);
         mGuessEdit = (EditText) findViewById(R.id.userInput);
         mHintView = (TextView) findViewById(R.id.hintView);
@@ -46,6 +48,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mResetButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //What happens when we click the reset button!
+                // gotta generate a new number and reset the counter ;-)
+                randNum = rand.nextInt((100 - 1) + 1) + 1;
+                counter = 10;
+                mTriesView.setText(Integer.toString(counter));
+                mHintView.setText("");
+
+            }
+        });
+
     }
 
     public void checkGuess(int randomNum, int userNum) {
@@ -53,15 +68,23 @@ public class MainActivity extends AppCompatActivity {
             //The random number is GREATER than the guess
             mHintView.setText("");
             mHintView.setText("Guess Higher!");
+            lowerCount();
         } else if (randomNum < userNum) {
             //The random number is LESS THAN the guess
             mHintView.setText("");
-            mHintView.setText("Guess Lower!:");
+            mHintView.setText("Guess Lower!");
+            lowerCount();
         } else {
             //The random number IS the guess :-)
             mHintView.setText("");
             mHintView.setText("Your guess is correct!");
 
         }
+    }
+
+    public void lowerCount() {
+        counter--;
+        mTriesView.setText("");
+        mTriesView.setText(Integer.toString(counter));
     }
 }
