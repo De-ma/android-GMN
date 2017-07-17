@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/a3c39f43d925c243919571b76bd4afb14ec51708/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_af90426de42dc50b932675797083848b4194c5a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/0e13c87ffab40dbefea01ee90326b03b0c2157b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_f61fefb69982d265eaacfbe9889597c3729d5784.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/95aa4b85ba4ad39f8593dbde86bd6552ae088ccb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_9a5f434ff7a588e606a70cb3b8d5fa4a97a679aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_2d46011c6038c8dbf001f544e4ab817e4b4e4dae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_7640369be4f0ec164b3e41d50c4ffac6ad8e9779.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/fa99e50fcff96e77288e3878efa0795f8987ebd1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_b5b7f081e27717c8be2dc5e4478470a6aeac34f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/7d6d6eeaea7182bce0ad4859ff8945ff5eb088cd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_bd3b479e6d58fe134ff4ae229d8a6c1a3d0730a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/dab6b9e5b890fe706593944e1d02a2964baa5103/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_0e6b5c04d98e9b5bc40e6eddd4257843959a1c16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/ccecfecf371085b638bc7701babe056261fc37ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_03ea182cffbd8bc2f5099e8055d65448816cc964.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/7dcc8ecf8934be3414dd7b40930ddb9e17bcdfd4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_98ae85efe1d2bbb2a0d2cdc92efe40eaaebc44cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/0aac0026202b6fd5f265f43c3b4f83745dbc40dc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_408fc4010a284caae717c3f51ef7becf37ccc019.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/demaabuadas/.android/build-cache/78dfa0ea5220b1d7ed11e4dd5986d94e68d1fe2a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/demaabuadas/Desktop/guessNumber/app/build/intermediates/pre-dexed/debug/classes_7d328d53c5ea5843ea28a74a3f1876a27e1d7014.jar" />
+    </item>
+
+</items>
